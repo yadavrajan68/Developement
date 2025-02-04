@@ -2,7 +2,7 @@
   "routes": [
     {
       "src": "/old-route",
-      "destination": "/new-route"
+      "dest": "/new-route"
     }
   ]
 }
