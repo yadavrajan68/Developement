@@ -1,7 +1,7 @@
 {
   "routes": [
     {
-      "source": "/old-route",
+      "src": "/old-route",
       "destination": "/new-route"
     }
   ]
