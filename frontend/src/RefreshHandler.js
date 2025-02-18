@@ -9,7 +9,7 @@ const RefreshHandler = ({ setIsAuthenticated }) => {
   useEffect(() => {
     if (localStorage.getItem("Token")) {
       setIsAuthenticated(true);
-      if (
+      if ( 
         location.pathname === "/login" ||
         location.pathname === "/signup" ||
         location.pathname === "/"
